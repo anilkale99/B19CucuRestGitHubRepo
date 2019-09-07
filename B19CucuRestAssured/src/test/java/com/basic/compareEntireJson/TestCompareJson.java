@@ -19,7 +19,7 @@ public class TestCompareJson {
 		String actual1 = "{id:123, name:\"Jerry\", mobile:999}";
 		String expected1 = "{id:123, name:\"Jerry\"}";
 		JSONAssert.assertEquals(expected1, actual1, JSONCompareMode.LENIENT);
-		
+		//
 		//case2 : sequence Change : PASS
 		String actual2 = "{ mobile:999, name:\"Jerry\", id:123}";
 		String expected2 = "{id:123, name:\"Jerry\"}";
