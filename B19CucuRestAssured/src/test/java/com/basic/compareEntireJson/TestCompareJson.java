@@ -24,8 +24,7 @@ public class TestCompareJson {
 		String actual2 = "{ mobile:999, name:\"Jerry\", id:123}";
 		String expected2 = "{id:123, name:\"Jerry\"}";
 		JSONAssert.assertEquals(expected2, actual2, JSONCompareMode.LENIENT);
-//		
-//		
+		
 //		//Case3: Extra field in expected : FAIL
 //		String actual3 = "{id:123, name:\"Jerry\", mobile:999}";
 //		String expected3 = "{id:123, name:\"Jerry\"}";
